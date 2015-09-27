@@ -1,0 +1,143 @@
+body {
+  background-color: #eee;
+  padding: 20px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+#navigation-bar a, #navigation-bar a:visited {
+  color: #999;
+}
+
+#navigation-bar a:hover {
+  color: #444;
+}
+
+h1, p {
+  color: #444;
+}
+
+img {
+  margin: 5px auto;
+  display: block;
+  max-width: 570px;
+}
+
+table {
+  margin: 15px 0px;
+}
+
+th, td {
+  padding: 0 10px;
+}
+
+#navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border-bottom: 1px #ddd solid;
+  background-color: white;
+  z-index: 10;
+}
+
+#navigation-bar-shadow {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.navigation-menu {
+  position: relative;
+  float: left;
+  display: inline;
+  padding: 13px 5px;
+  vertical-align: baseline;
+}
+
+.navigation-menu > a {
+  display: block;
+  position: relative;
+  padding: 2px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigation-menu > a:hover {
+  padding-left: 5px;
+  border-left: 5px #ccc solid;
+}
+
+.navigation-menu > ul {
+  display: none;
+}
+
+.navigation-menu:hover > ul {
+  display: block;
+}
+
+ul#projects-submenu {
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 180px;
+  padding: 3px;
+  background-color: white;
+}
+
+ul#projects-submenu > li {
+  float: left;
+  position: relative;
+  display: inline;
+  width: 100%;
+  padding: 3px 0px; /* la */
+}
+
+ul#projects-submenu > li > a {
+  display: block;
+  position: relative;
+  padding: 2px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul#projects-submenu > li > a:hover {
+  padding-left: 5px;
+  border-left: 5px #ccc solid;
+}
+
+#content {
+  max-width: 600px;
+  min-width: 400px;
+  display: block;
+  margin: 0px auto;
+}
+
+.image-caption {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.half-width {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.squeeze-left {
+  max-width: 100%;
+  float: left;
+}
+
+.squeeze-right {
+  max-width: 100%;
+  float: right;
+}
+
+.double-image img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
